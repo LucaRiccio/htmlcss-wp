@@ -2,23 +2,34 @@
   margin: 0
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family:sans-serif;
 }
 
-body {
-  background-image: url('https://cdn.pixabay.com/photo/2016/11/29/01/54/wood-1866667_960_720.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+#insta {
+  color: lightgrey;
+  font-size: 40px;
+  position: absolute;
+  left: 100px;
+}
+
+#face {
+  color: lightgrey;
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+}
+
+#git {
+  color: lightgrey;
+  font-size: 40px;
+  position: absolute;
+  right: 100px;
 }
 
 .clearfix::after {
   content:'';
   display: table;
   clear: both;
-}
-
-i{
-  color: white;
 }
 
 .titolo {
@@ -58,6 +69,12 @@ main .contenitore {
   padding: 5px;
 }
 
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/29/01/54/wood-1866667_960_720.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 header {
   height: 350px;
   background-image: url('https://cdn.pixabay.com/photo/2017/03/27/15/14/forest-2179318_960_720.jpg');
@@ -66,6 +83,10 @@ header {
   margin: 0 auto;
   width: 75%;
   position: relative;
+}
+
+i{
+  color: white;
 }
 
 span {
@@ -121,12 +142,14 @@ nav{
 
 footer {
   height: 100px;
-  background-color: lightgrey;
+  background-color: white;
   margin: 0 auto;
   width: 75%;
   border-radius: 5px;
   color: grey;
   font-style: italic;
+  text-align: center;
+  position: relative;
 }
 
 a {
@@ -144,6 +167,7 @@ a:visited {
   text-decoration: none;
 }
 
-.contenitore a{
-
+.loghi i {
+  color: lightgrey;
+  font-size: 40px;
 }
